@@ -45,3 +45,45 @@ Tea House is a modern React application designed for a tea shop website. This pr
 2. Open your browser and navigate to `http://localhost:8000` to view the Api Service.
 
 ## Folder Structure
+
+teashop/
+│
+├── public/
+│ ├── css/
+│ ├── img/
+│ ├── js/
+│ ├── lib/
+│ ├── scss/
+│ ├── error.png
+│
+├── src/
+│ ├── components/
+│ │ ├── About.js
+│ │ ├── Article.js
+│ │ ├── Contact.js
+│ │ ├── Copyright.js
+│ │ ├── Footer.js
+│ │ ├── Header.js
+│ │ ├── Navbar.js
+│ │ ├── Products.js
+│ │ ├── Store.js
+│ │ ├── Testimonial.js
+│ │ ├── Video.js
+│ │ ├── VideoModal.js
+│ │
+│ ├── pages/
+│ │ ├── AboutPage.js
+│ │ ├── ContactPage.js
+│ │ ├── ProductsPage.js
+│ │ ├── StorePage.js
+│ │
+│ ├── features/
+│ │ ├── products/productsSlice.js
+│ │
+│ ├── App.js
+│ ├── index.js
+│ ├── store.js
+│
+├── .gitignore
+├── package.json
+├── README.md
